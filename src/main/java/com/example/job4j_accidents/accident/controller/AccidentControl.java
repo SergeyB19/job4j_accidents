@@ -1,12 +1,11 @@
 package com.example.job4j_accidents.accident.controller;
-
 import com.example.job4j_accidents.accident.model.Accident;
 import com.example.job4j_accidents.accident.model.AccidentType;
+import com.example.job4j_accidents.accident.model.Rule;
 import com.example.job4j_accidents.accident.service.AccidentService;
 import com.example.job4j_accidents.accident.service.AccidentTypeService;
 import com.example.job4j_accidents.accident.service.RuleService;
 import lombok.AllArgsConstructor;
-import org.apache.tomcat.util.digester.Rule;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
